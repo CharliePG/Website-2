@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    text-align:center;
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif; 
+}
+
+h1{
+    margin-top: 0;
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+/*----- Class Section ----- */
+
+#top-container{
+    background-color: #5aadff;
+    position: relative;
+    padding-top: 100px;
+}
+
+#middle-container{
+
+
+}
+
+#bottom-container{
+
+}
+
+.dragon_top{
+    height:150px;
+    position: absolute;
+    right: 400px;
+    top:50px;
+}
+
+.dragon_bottom{
+    height:150px;
+    position:absolute;
+    left:400px;
+    bottom:300px;
+    transform: scalex(-1);
+}
+
+.volcano{
+    height: 600px;
+    padding-top: 50px;
+}
