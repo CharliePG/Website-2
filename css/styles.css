@@ -4,52 +4,182 @@ body{
     font-family: 'Open-Sans', Arial, Helvetica, sans-serif; 
 }
 
-h1{
-    margin-top: 0;
+hr{
 
+    border-style:none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
 }
 
-h2{
+h1{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 5.625em;
+    color:#444444;
+    margin: 50px auto 0 auto;
+}
 
+
+h2{
+    font-family: arial, sans-serif;
+    font-size:2.25em;
+    font-weight: normal;
+    color:#66bfbf;
+    line-height: 2;
 }
 
 h3{
+    font-family: arial, sans-serif;
+    font-size:1.5em;
 
+}
+
+h4{
+    color: cadetblue;
+    font-size: 1.25em;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: #0917df;
+    font-family: 'Open-Sans', Arial, Helvetica, sans-serif; 
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#eaf6f6;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size:0.75em;
 }
 
 /*----- Class Section ----- */
 
 #top-container{
-    background-color: #5aadff;
+    background-color: #74b8fc;
     position: relative;
     padding-top: 100px;
-}
-
-#middle-container{
-
-
-}
-
-#bottom-container{
-
 }
 
 .dragon_top{
     height:150px;
     position: absolute;
-    right: 400px;
-    top:50px;
+    right: 300px;
+    top:40px;
 }
 
 .dragon_bottom{
     height:150px;
     position:absolute;
-    left:400px;
-    bottom:300px;
+    left:250px;
+    bottom:500px;
     transform: scalex(-1);
 }
 
 .volcano{
     height: 600px;
     padding-top: 50px;
+    padding-bottom: 0px;
 }
+
+
+#middle-container{
+    margin: 100px 0;
+
+}
+
+.profile{
+    margin: auto auto 100px auto;
+    width: 30%;
+}
+
+.profile-pic{
+    margin: 30px auto auto auto;
+}
+
+.skill{
+    margin-top: 75px;
+
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill-code{
+    width:25%;
+    float: left;
+    margin-right: 50px;
+}
+
+.skill-engineer{
+    width:25%;
+    float: right;
+    margin-left: 50px;
+}
+
+.skill-teamwork{
+    width:25%;
+    float: left;
+    margin-right: 50px;
+}
+
+.contact_me{
+    margin: auto;
+}
+
+.contact-message{
+    margin:40px auto 60px;
+    width:40%;
+}
+
+.BUTTON_GAJ {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    text-shadow: 1px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_GAJ:hover {
+    border: solid #337FED 0;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+ }
+
+#bottom-container{
+    padding: 50px 0 20px;
+    background-color: #74bafc;
+}
+
