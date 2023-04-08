@@ -97,7 +97,7 @@ a:hover{
 
 .profile{
     margin: auto auto 100px auto;
-    width: 30%;
+    width: 50%;
 }
 
 .profile-pic{
@@ -111,7 +111,7 @@ a:hover{
 
 .skill-row{
     width:50%;
-    margin: 100px auto 100px auto;
+    margin: 130px auto ;
     text-align: left;
 }
 
@@ -119,18 +119,28 @@ a:hover{
     width:25%;
     float: left;
     margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 .skill-engineer{
     width:25%;
     float: right;
     margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 .skill-teamwork{
     width:25%;
     float: left;
     margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.skill-karate{
+    width:25%;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
 }
 
 .contact_me{
